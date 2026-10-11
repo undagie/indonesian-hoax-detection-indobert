@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software or method, please cite the journal article."
+title: "Indonesian Hoax Detection: Data-Centric Pipeline"
+type: software
+authors:
+  - family-names: Muttaqin
+    given-names: Riadhul
+  - family-names: Rosadi
+    given-names: Muhammad Edya
+  - family-names: Firdaus
+    given-names: Muhammad Iqbal
+  - family-names: Agustini
+    given-names: Dian
+abstract: >-
+  Reproducibility code for Indonesian news hoax detection with IndoBERT and a
+  hybrid class-imbalance objective (class weighting and focal loss).
+keywords:
+  - hoax detection
+  - IndoBERT
+  - class imbalance
+  - focal loss
+  - Indonesian NLP
+license: CC-BY-4.0
+repository-code: "https://github.com/undagie/indonesian-hoax-detection-indobert"
+url: "https://github.com/undagie/indonesian-hoax-detection-indobert"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Muttaqin
+      given-names: Riadhul
+    - family-names: Rosadi
+      given-names: Muhammad Edya
+    - family-names: Firdaus
+      given-names: Muhammad Iqbal
+    - family-names: Agustini
+      given-names: Dian
+  title: >-
+    Deteksi Hoaks Berita Berbahasa Indonesia Menggunakan IndoBERT dengan
+    Penanganan Ketidakseimbangan Kelas Berbasis Gabungan Class Weighting dan
+    Focal Loss
+  journal: "Infotek: Jurnal Informatika dan Teknologi"
+  year: 2026
+  volume: 9
+  issue: 2
+  start: 786
+  end: 797
+  doi: 10.29408/jit.v9i2.35214
+  url: "https://doi.org/10.29408/jit.v9i2.35214"

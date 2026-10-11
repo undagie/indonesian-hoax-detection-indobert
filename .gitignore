@@ -1,0 +1,38 @@
+# Secrets: never commit
+kaggle.json
+.kaggle/
+.env
+*.env
+
+# Python / local env
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Editor / OS / local agent config
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Datasets (re-download via scripts/download_data.py)
+dataset/raw/
+dataset/cache/
+dataset/processed/
+
+# Heavy / regenerable experiment artifacts
+results/runs/
+results/logs/
+results/figures/
+*.pt
+*.pth
+*.tar.gz
+*.zip
+
+# Tracked intentionally: results/tables/ and results/report.md

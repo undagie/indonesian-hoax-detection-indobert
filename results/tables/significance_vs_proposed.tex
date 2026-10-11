@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Statistical tests of the proposed pipeline vs each baseline (seed=first).}
+\label{tab:sig_vs_proposed}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+baseline & mcnemar\_stat & mcnemar\_p & mcnemar\_n01 & mcnemar\_n10 & delta\_f1\_macro & paired\_boot\_p & paired\_boot\_ci95\_low & paired\_boot\_ci95\_high \\
+\midrule
+tfidf\_rf & 0.4539 & 0.5005 & 75 & 66 & 0.1241 & 0.0000 & 0.0753 & 0.1749 \\
+transformer\_aug-contextual & 10.7789 & 0.0010 & 31 & 64 & 0.0462 & 0.0020 & 0.0146 & 0.0775 \\
+tfidf\_xgboost & 1.2246 & 0.2685 & 76 & 62 & 0.0738 & 0.0040 & 0.0291 & 0.1222 \\
+tfidf\_svm & 0.0301 & 0.8623 & 65 & 68 & 0.0463 & 0.0220 & 0.0051 & 0.0901 \\
+tfidf\_logreg & 0.8696 & 0.3511 & 52 & 63 & 0.0344 & 0.0560 & -0.0007 & 0.0732 \\
+transformer\_vanilla & 0.2025 & 0.6527 & 42 & 37 & 0.0142 & 0.3940 & -0.0207 & 0.0481 \\
+transformer\_imb-combined & 1.5158 & 0.2183 & 54 & 41 & 0.0051 & 0.7700 & -0.0299 & 0.0424 \\
+\bottomrule
+\end{tabular}
+\end{table}
